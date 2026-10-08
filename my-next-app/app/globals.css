@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* columnas responsivas */
+  gap: 1rem; /* espacio entre elementos */
+  padding: 1rem;
+}
+
+.gridItem {
+  background-color: #4cafef;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}

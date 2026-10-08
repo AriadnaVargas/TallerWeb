@@ -2,6 +2,7 @@ import Image from "next/image";
 import Generador from "../components/generador";
 import Formulario from "../components/Formulario";
 import ProgressBar from "@/components/Progressbar";
+import Timer from "@/components/Timer";
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
       <div>
         <ProgressBar />
       </div>
+      
     </div>
   );
 }

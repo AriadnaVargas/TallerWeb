@@ -43,18 +43,18 @@ export default function Formulario() {
     </div>
     <div>
         <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Nombre" name="name" onChange={handleOnChange} />
-        <input type="username" placeholder="Username" name="username" onChange={handleOnChange} />
-        <input type="age" placeholder="Age" name="age" onChange={handleOnChange} />
-        <button type="submit">Enviar</button>
+        <input type="text" placeholder="Nombre" name="name" className="text-gray-400 hover:text-white text-sm transition-colors" onChange={handleOnChange} />
+        <input type="username" placeholder="Username" name="username" className="text-gray-400 hover:text-white text-sm transition-colors" onChange={handleOnChange} />
+        <input type="age" placeholder="Age" name="age" className="text-gray-400 hover:text-white text-sm transition-colors" onChange={handleOnChange} />
+        <button type="submit" className="text-gray-400 hover:text-white text-sm transition-colors">Enviar</button>
         </form>
     </div>
     <div>
         <h2>Datos ingresados:</h2>
         <ul>
-        <li>Nombre2: {name}</li>
-        <li>Email: {username}</li>
-        <li>Edad: {age}</li>
+        <li className="text-gray-400 hover:text-white text-sm transition-colors">Nombre2: {name}</li>
+        <li className="text-gray-400 hover:text-white text-sm transition-colors">Email: {username}</li>
+        <li className="text-gray-400 hover:text-white text-sm transition-colors">Edad: {age}</li>
         </ul>
     </div>
     
