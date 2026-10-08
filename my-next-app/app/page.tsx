@@ -15,7 +15,9 @@ export default function Home() {
       <div>
         <ProgressBar />
       </div>
-      
+      <div>
+        <Timer />
+      </div>
     </div>
   );
 }
