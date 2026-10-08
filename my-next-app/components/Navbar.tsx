@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link className="navbar-brand 
                                     text-light font-bold"
                         href="/">
-                        GFG
+                        Navbar
                     </Link>
                     <div className="collapse navbar-collapse"
                         id="navbarNav">
@@ -25,21 +25,28 @@ const Navbar = () => {
                                 <Link href="/about"
                                     className="nav-item nav-link 
                                                  text-light">
-                                    Abou
+                                    Home
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link href="/Contact"
                                     className="nav-item nav-link 
                                                  text-light">
-                                    Contact
+                                    Features
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link href="services"
                                     className="nav-item nav-link 
                                                 text-light">
-                                    Sevices
+                                    Pricing
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link href="services"
+                                    className="nav-item nav-link 
+                                                text-light">
+                                    About
                                 </Link>
                             </li>
                         </ul>
