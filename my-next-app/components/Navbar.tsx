@@ -7,6 +7,7 @@ const Navbar = () => {
   const [search, setSearch] = useState("");
 
   return (
+    <div style={{ transform: "rotate(180deg)" }}>
     <nav className="flex items-center h-[52px] px-6 gap-8 bg-gray-700">
 
       <Link href="/" className="text-white font-semibold text-sm">
@@ -44,6 +45,7 @@ const Navbar = () => {
       </div>
 
     </nav>
+    </div>
   );
 };
 
