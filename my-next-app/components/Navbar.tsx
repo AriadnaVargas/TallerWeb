@@ -36,10 +36,10 @@ const Navbar = () => {
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search"
           className="bg-gray-600 border border-gray-500 text-white placeholder-gray-400
-                     text-sm px-3 py-1.5 rounded-sm focus:outline-none focus:border-gray-400 w-52"
+                     text-sm "
         />
         <button className="bg-gray-600 border border-gray-500 text-white hover:bg-gray-500
-                           text-sm px-4 py-1.5 rounded-sm transition-colors">
+                           text-sm  rounded-sm transition-colors">
           Search
         </button>
       </div>
